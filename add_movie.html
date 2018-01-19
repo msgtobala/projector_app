@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>ADD MOVIE</title>
+     
+     <link href = "https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+     <link rel = "stylesheet" href = "css/style.css">
+  </head>
+  <body>
+      <header>
+         <img class = "fleft" src = "./images/projector-logo.png" alt = "logo">
+         <ul class = "fright">
+           <li><a href = "#">HOME</a></li>
+           <li><a href = "#">ADD MOVIE</a></li>
+         </ul>
+      </header>
+      <div class = "gap" ></div>
+      <form action = "#" method = "post" >
+        <h1 style="text-align:center;color:white;font-size:18px;font-family:bold">Add A New Movie</h1>
+        <div>
+          <label for = "name">Movie Name</label>
+        </div>
+        <div>
+          <input type = "text" name = "name" required/>
+        </div>
+
+        <div>
+          <label for = "year">Release Year</label>
+        </div>
+        <div>
+          <input type = "date" name = "year" required/>
+        </div>
+
+        <div class = "fleft">
+        <div>
+          <label  class = "fleft" for = "lang" style = "padding-bottom:10px">Language</label>
+        </div>
+        <div>
+          <select>
+             <option value="Tamil">Tamil</option>
+             <option value="English">English</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+
+       <div class = "fright padi">
+        <div>
+            <label  class = "fright padi" for = "rating" style = "padding-bottom:10px">Rating</label>
+        </div>
+        <div>
+          <select>
+             <option value="5">5</option>
+             <option value="4">4</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+      </div>
+
+        <div class = "gap"></div>
+       <div>
+         <label for = "turl">Thumbnail URL</label>
+      </div>
+      <div>
+         <input type = "url" name = "turl"/>
+      </div>
+       <div>
+         <label for = "plot">Plot</label>
+       </div>
+       <div>
+         <textarea cols = "20" rows = "5"></textarea>
+      </div>
+      <div>
+        <label for = "purl">Poster URL</label>
+      </div>
+      <div>
+        <input type = "url" name = "purl"/>
+      </div>
+      <div>
+        <label for = "cast">Cast</label>
+      </div>
+      <div>
+        <textarea cols = "20" rows = "5"></textarea>
+     </div>
+     <div>
+       <input type = "submit"  id = "butt" value = "SAVE"  name = "save"/>
+    </div>
+    <br>
+    </form>
+    <footer>
+         <div class = "fleft">
+         <a href = "#"><img src = "./images/facebook.png" alt = "fb" width = "50"/></a>
+         <a href = "#"><img src = "./images/twitter.png" alt = "twiter" width = "50" /></a>
+         <a href = "#"><img src = "./images/instagram.png" alt = "insta" width = "50"/></a>
+       </div>
+       <div class = "fright">
+         <a href = "#" style = "padding-right:18px;  "><img src = "./images/projector-logo.png" alt = "logo" width ="200" height = "50"  ></a>
+      </div>
+      <div class = "gap"></div>
+    </footer>
+  </body>
+</html>
