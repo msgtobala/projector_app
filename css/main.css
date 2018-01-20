@@ -48,6 +48,10 @@ section h4 {
   color:#ffcb57;
   padding:28px;
 }
+section p{
+  color:white;
+  padding:28px;
+}
 aside h4 {
   color:#ffcb57;
   padding:28px;
@@ -72,4 +76,14 @@ div aside ul {
 }
 div aside ul li{
   padding-top:1px;
+}
+footer {
+  height:70px;
+  background-color:black;
+  padding-top: 20px;
+  margin:-7px;
+  margin-bottom:-7px;
+}
+footer a{
+  padding:8px;
 }
